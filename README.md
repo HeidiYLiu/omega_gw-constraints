@@ -1,4 +1,4 @@
-# omega_gw-constraints
+# $omega_gw-constraints$
 
 The Cosmic Microwave Background (CMB) is the radiation remnant from the Big Bang. After the big bang, the early Universe was denser and much hotter. The tightly coupled system of photons, electrons, and protons behaved as a "single gas" (matter), and it trapped radiation (light) [4].
 
