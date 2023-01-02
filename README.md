@@ -9,7 +9,7 @@ After recombination, the photons (light) were no longer scattered by collisions
 
 Small disturbances in the early Universe made the "single gas" propagate as sound waves. The gas from the rarefied (cooling the gas) and compressed (heating the gas) regions froze into the CMB and created temperature anisotropies. [4]. 
 
-$\b{But what is the source of initial disturbances that triggered the sound wave?}$
+$/b{But what is the source of initial disturbances that triggered the sound wave?}$
 
 ![Planck_CMB_pillars](https://user-images.githubusercontent.com/94723635/210215778-a2148462-717c-4bca-bfc0-f3ccdd8d28e9.jpg)
 
