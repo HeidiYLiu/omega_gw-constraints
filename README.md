@@ -49,3 +49,11 @@ Fisher Matrix Equation: 
 $$F_{r} = \sum_{l=2}^{l_{max}}\left[C_l^{BB} + \frac{4\pi\sigma^2}{N}e^{\theta^2_{b}l(l+1)}\right]^{-2}\left(\frac{\partial C_l}{\partial r}\right)^2$$
 
 The $\frac{4\pi\sigma^2}{N}e^{\theta^2_{b}l(l+1)}$ part is the foreground signal and noise simulated. After getting the Fiducial value for r in each bin, we can just multiply it with the determined $A_s$ value to get the constraint for the Primordial Power Spectra in each bin.
+
+## Delensing Process
+
+The E mode polarization, which also contains the scalar signals, could be transformed into the B mode power through gravitational lensing. This means the Inflationary Gravitational Waves signals (in the low multipole region) and the signals from Gravitational Lensing (in the high multipole region) are intertwined at some level in the low multipole region. Therefore, it is essential to do a delensing process to improve the accuracy of the B-mode polarization data.
+
+The equation for the power spectrum that includes lensing effects is:
+
+$$C_l = C_l^{r} + A_l \times C_l^{lensed(A_l)} = r \times \frac{\partial{C_l}}{\partial{r}} + A_l \times \frac{\partial{C_l}}{\partial{A_l}}$$ 
