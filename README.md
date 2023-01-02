@@ -11,6 +11,9 @@ Small disturbances in the early Universe made the "single gas" propagate as soun
 
 /b{But what is the source of initial disturbances that triggered the sound wave?}
 
+![Planck_CMB_pillars](https://user-images.githubusercontent.com/94723635/210215778-a2148462-717c-4bca-bfc0-f3ccdd8d28e9.jpg)
+
+
 
 ## Tensor-to-Scalar Ratio
 The tensor-to-scaler ratio, r, was proposed to measure the proportion of the two components of fluctuations. It could also measure the Universe's expansion rate during inflation since the tensor component of perturbations only depends on the expansion rate [4].
