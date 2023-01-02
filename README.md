@@ -57,3 +57,8 @@ The E mode polarization, which also contains the scalar signals, could be transf
 The equation for the power spectrum that includes lensing effects is:
 
 $$C_l = C_l^{r} + A_l \times C_l^{lensed(A_l)} = r \times \frac{\partial{C_l}}{\partial{r}} + A_l \times \frac{\partial{C_l}}{\partial{A_l}}$$ 
+
+
+# Using the code
+
+## constraints_tools.py
