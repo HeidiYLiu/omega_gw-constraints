@@ -33,9 +33,7 @@ $$P_{t}(k) = A_{t}\left(\frac{k}{k_p}\right)^{n_t}, \, r = \frac{A_t}{A_s}$$
 
 where $A_s$ is the scalar amplitude and $A_t$ is the tensor amplitude.
 
-For the inflationary case:
-
-$n_t \approx 0$.
+For the inflationary case: $n_t \approx 0$.
 
 We created our initial power spectrum as equally-binned step functions of the Fourier wavenumber (k) and its corresponding scale-dependent Pt(k) parametrized by r and the well-determined As value (from the CMB experiment) on different logarithmic scales (from 1e-6 to 10).
 
