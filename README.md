@@ -9,7 +9,6 @@ After recombination, the photons (light) were no longer scattered by collisions
 
 Small disturbances in the early Universe made the "single gas" propagate as sound waves. The gas from the rarefied (cooling the gas) and compressed (heating the gas) regions froze into the CMB and created temperature anisotropies. 
 
-![Planck_CMB_pillars](https://user-images.githubusercontent.com/94723635/210215778-a2148462-717c-4bca-bfc0-f3ccdd8d28e9.jpg)
 
 ## Cosmological Perturbation
 According to the Inflation theory, the Universe expanded exponentially from a microscopic scale in its first few moments after the Big Bang. The quantum fluctuations accelerated by this rapid expansion has created some initial cosmological perturbations, which has two component, tensor (Gravitational Waves) and scalar (Density Variations).
@@ -34,7 +33,7 @@ $$P_{t}(k) = A_{t}\left(\frac{k}{k_p}\right)^{n_t}, \, r = \frac{A_t}{A_s}$$
 
 where $A_s$ is the scalar amplitude and $A_t$ is the tensor amplitude.
 
-For the inflationary case: $n_t \approx 0$.
+For the inflationary case: $$n_t \approx 0$$.
 
 We created our initial power spectrum as equally-binned step functions of the Fourier wavenumber (k) and its corresponding scale-dependent Pt(k) parametrized by r and the well-determined As value (from the CMB experiment) on different logarithmic scales (from 1e-6 to 10).
 
