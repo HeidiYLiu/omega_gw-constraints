@@ -30,5 +30,23 @@ Forecasts typically focus on scale-invariant power spectrum for the inflation
 
 The tensor primordial power spectrum - Pt(k) is parametrized as: 
 
-$$P_{t}(k) = A_{t}\left(\frac{k}{k_p}\right)^{n_t}$$
+$$P_{t}(k) = A_{t}\left(\frac{k}{k_p}\right)^{n_t}, \, r = \frac{A_t}{A_s}$$
 
+where $A_s$ is the scalar amplitude and $A_t$ is the tensor amplitude.
+
+For the inflationary case: $n_t \approx 0$.
+
+We created our initial power spectrum as equally-binned step functions of the Fourier wavenumber (k) and its corresponding scale-dependent Pt(k) parametrized by r and the well-determined As value (from the CMB experiment) on different logarithmic scales (from 1e-6 to 10).
+
+Below is the equation of how we vary the scale-dependent Pt(k):
+
+$$P_{t}(k) = erfc\left(\frac{(i-1)\times\delta - \ln(k)}{\sigma\times\sqrt{2}}\right) - erfc\left(\frac{i\times\delta - \ln(k)}{\sigma\times\sqrt{2}}\right)$$
+
+## Forecasting Method
+We used the public Boltzmann code CLASS to transform our initial general power spectrum (scale-dependent) to the CMB B-mode power spectrum. We varied the r value for the bins on each scale and generated the corresponding B-mode polarization power spectrum.
+We used a standard Fisher matrix method in cosmology [2] with the transformed B-mode power spectrum to forecast a constraint for r and Pt(k) for PGWs. We also considered the sky coverage, galactic foreground noise, and instrumentation noise.
+Fisher Matrix Equation: 
+
+$$F_{r} = \sum_{l=2}^{l_{max}}\left[C_l^{BB} + \frac{4\pi\sigma^2}{N}e^{\theta^2_{b}l(l+1)}\right]^{-2}\left(\frac{\partial C_l}{\partial r}\right)^2$$
+
+The $\frac{4\pi\sigma^2}{N}e^{\theta^2_{b}l(l+1)}$ part is the foreground signal and noise simulated. After getting the Fiducial value for r in each bin, we can just multiply it with the determined $A_s$ value to get the constraint for the Primordial Power Spectra in each bin.
