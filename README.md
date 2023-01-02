@@ -30,8 +30,5 @@ Forecasts typically focus on scale-invariant power spectrum for the inflation
 
 The tensor primordial power spectrum - Pt(k) is parametrized as: 
 
-
-\begin{equation}
-    P_{t}(k) = A_{t}\left(\frac{k}{k_p}\right)^{n_t}
-\end{equation}
+$$P_{t}(k) = A_{t}\left(\frac{k}{k_p}\right)^{n_t}$$
 
